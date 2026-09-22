@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>simple Café Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p>
+        <a href="#about">About Our café</a> | 
+        <a href="#menu">Our Menu</a> | 
+        <a href="#links">Links Cafe</a> | 
+        <a href="#media">Café Media</a> | 
+        <a href="#feedback">Customer Feedback Form</a>
+    </p>
+
+    <h1>Welcome to cafe Swalmeh </h1>
+    <h2>number one in the world </h2>
+    <p>Your sanctuary for specialty brews and cozy conversations.</p>
+    <br />
+    
+    <h2 id="about">About Our café</h2>
+    <p>Enjoy specialty, ethically sourced brews paired with artisan pastries in a cozy, work-friendly space.</p>
+    <p>Experience seamless convenience with fast Wi-Fi, table-side QR ordering, and a built-in rewards program.</p>
+    <img src="images one.jpg" alt="cafe alswalmeh" class="imgEdit">
+
+    <h2 id="menu">Our Menu</h2>
+
+    <h3>Hot & Cold Drinks</h3>
+    <ul>
+        <li>coffee
+            <ol>
+                <li>Spanish Latte</li>
+                <li>Coffee ameed</li>
+                <li>Matcha Latte</li>
+            </ol>
+        </li>
+        
+        <li>Tea
+            <ol>
+                <li>tea black</li>
+                <li>tea green</li>
+            </ol>
+        </li>
+    </ul>
+
+    <h2 id="links">links cafe <a href="https://share.google/wfNS9DNdk1Bsedsi3" target="_blank">cafe Swalmeh</a></h2>
+
+    <h2 id="media">Café Media </h2>
+
+    <h3>Our Coffee Craft</h3>
+    <img src="images two.jpg" alt="Matcha" class="imgEdit">
+    <img src="images three.jpg" alt="coffee & tea " class="imgEdit">
+    <h3>Café Ambient Sounds</h3>
+    <p>Listen to the soothing background ambient sound of our coffee shop:</p>
+    <audio controls src="sound_coffee.mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Barista at Work</h3>
+    <p>Watch how we brew our signature pour-over coffee:</p>
+    <video controls width="500" src="video.mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <h2 id="feedback">Customer Feedback Form</h2>
+    <p>We value your thoughts! Please let us know how your visit went.</p>
+
+    <form>
+        <label>Your Name: <input type="text" placeholder="Enter your full name" required></label>
+        <br />
+        <label>Email Address: <input type="email" placeholder="Swalmeh@example.com" required></label>
+        <br />
+        <label>Rating (1 to 5): <input type="number" min="1" max="5" placeholder="5" required></label>
+        <br /><br />
+        <label>Favorite Drink:</label><br>
+        <select required>
+            <option value="">-- Please choose an option --</option>
+            <option value="Spanish Latte">Spanish Latte</option>
+            <option value="Coffee ameed">Coffee ameed</option>
+            <option value="matcha-latte">matcha-latte</option>
+            <option value="tea balck">tea black</option>
+            <option value="tea green">tea green</option>
+        </select>
+        <br /><br>
+
+        <label>Comments & Suggestions: <textarea placeholder="Tell us about your experience..." required></textarea></label>
+        <br /><br />
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+</body>
+
+</html>
